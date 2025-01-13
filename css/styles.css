@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: #19a1ae;
+}
+
+.background_top_img {
+  position: absolute;
+  top: -204px;
+  left: -669px;
+}
