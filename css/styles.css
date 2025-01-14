@@ -8,11 +8,97 @@ img {
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kumbh Sans', serif;
   background-color: #19a1ae;
 }
 
-.background_top_img {
+/* Backgorund */
+
+.bg_top,
+.bg_bottom {
   position: absolute;
-  top: -204px;
-  left: -669px;
+  width: 822px;
+  height: 822px;
+}
+.bg_top {
+  top: -311px;
+  left: -311px;
+}
+.bg_bottom {
+  bottom: -311px;
+  right: -311px;
+}
+
+/* Card */
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+.card_bg {
+  border-radius: 15px 15px 0 0;
+}
+
+.img_porfile {
+  margin-top: -70px;
+  margin-left: 120px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -10px;
+}
+.card_info_city {
+  margin: -8px;
+}
+.age,
+.card_info_city,
+.text {
+  color: #6b7082;
+  font-weight: 400;
+  font-style: normal;
+}
+.age {
+  font-size: 18px;
+}
+.card_info_city {
+  font-size: 14px;
+}
+
+/* Estadisticas */
+
+.statistics {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 40px;
+  border-top: 2px solid #e8e9ec;
+}
+.statistics_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.numbers {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #2e3349;
+}
+.text {
+  margin-top: -10px;
+  font-size: 14px;
 }
